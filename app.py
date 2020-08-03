@@ -23,7 +23,7 @@ def predict():
     pred=model.predict(response)
     
     if pred==1:
-        return render_template("pred.html",predicted="The person defaults")
+        return render_template("pred.html",predicted="The person defaults!!!")
     return render_template("pred.html",predicted="The person doesn't default")
 
 @app.route('/')
