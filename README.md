@@ -13,3 +13,6 @@ A classification model is bulit which classifies the customers to two categories
 Link: [https://loan-default-pred-api.herokuapp.com](https://loan-default-pred-api.herokuapp.com/)
 
 ![](/static/form_image.jpg)
+
+## Project Architecture
+![](/static/architecture.jpg)
