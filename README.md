@@ -15,4 +15,4 @@ Link: [https://loan-default-pred-api.herokuapp.com](https://loan-default-pred-ap
 ![](/static/form_image.jpg)
 
 ## Project Architecture
-![](/static/architecture.jpg)
+![](/static/architecture.JPG)
