@@ -6,3 +6,6 @@ The bank then has to either Charge-Off/Write Off the loan or have to seek other 
 severely affects the health of the bank, even threatening the national economy. The bank is thus faced with the problem of identifying those borrowers who can pay up their 
 due amount, and not lending to borrowers who are likely to default.
 
+## Demo
+Link: [https://loan-default-pred-api.herokuapp.com](https://loan-default-pred-api.herokuapp.com/)
+
