@@ -9,3 +9,4 @@ due amount, and not lending to borrowers who are likely to default.
 ## Demo
 Link: [https://loan-default-pred-api.herokuapp.com](https://loan-default-pred-api.herokuapp.com/)
 
+![](/static/form_image.jpg)
