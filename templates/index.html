@@ -122,10 +122,7 @@
 		  <option value="WI">Wisconsin</option>
 		  <option value="WY">Wyoming</option>
 		</select><br><br>
-		
-		<label for="ApprovalFY">Fiscal Year of Commitment</label>
-		<input type="number" id="ApprovalFY" name="ApprovalFY" min="1960" max="2010"><br><br>
-		
+				
 		<label for="term">Loan term in months</label>
 		<input type="number" id="term" name="term" min="0" max="480"><br><br>
 	
@@ -138,11 +135,8 @@
 		<input type="radio" id="exist" name="newexist" value="1">
 		<label for="exist">Existing</label><br><br>
 		
-		<label for="nojobs">Jobs Created</label>
-		<input type="number" id="nojobs" name="nojobs" min="0" max="3000"><br><br>
-		
-		<label for="retjobs">Jobs Retained</label>
-		<input type="number" id="retjobs" name="retjobs" min="0" max="9500"><br><br>
+		<label for="totjobs">Total Jobs</label>
+		<input type="number" id="totjobs" name="totjobs" min="0" max="9500"><br><br>
 		
 		<label for="urbanrural">Business Geography</label><br>
 		<input type="radio" id="urban" name="urbanrural" value="1">
@@ -152,7 +146,7 @@
 		<input type="radio" id="unidentified" name="urbanrural" value="0">
 		<label for="unidentified">Unidentified</label><br><br>
 
-		<label for="disbursementgross">Amount Disbursed</label>
+		<label for="disbursementgross">Loan Amount</label>
 		<input type="number" id="disbursementgross" name="disbursementgross" min="0" max="5000000"><br><br>
 		
 		<label for="grapp">Gross Amount of Loan Approved by Bank</label>
@@ -180,9 +174,6 @@
 		<label for="yes">Yes</label>
 		<input type="radio" id="no" name="lowdoc" value="0">
 		<label for="no">No</label><br><br>
-		
-		<label for="disbursementyear">Disbursement Year</label>
-		<input type="number" id="disbursementyear" name="disbursementyear" min="1962" max="2013"><br><br>
 		
 		<center><button type="submit" >Predict</button></center>
 	</form>
