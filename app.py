@@ -8,7 +8,7 @@ model=pickle.load(open('model.pkl','rb'))
 sc=pickle.load(open('sc.pkl','rb'))
 state_value=pickle.load(open('state.pkl','rb'))
 
-#response=['CA','80','4','2','0','0','55000','55000','50000','0','0','1','2000']
+#response=['CA','80','4','2','0','0','55000','55000','50000','0','0','1']
 
 
 @app.route('/predict',methods=['POST'])
@@ -22,8 +22,8 @@ def predict():
     pred=model.predict(response)
     
     if pred==1:
-        return render_template("pred.html",predicted="The borrower has a high chance to default !!!")
-    return render_template("pred.html",predicted="The borrower has less chance to default")
+        return render_template("pred.html",predicted="High chance to default !!!")
+    return render_template("pred.html",predicted="Less chance to default")
 
 @app.route('/')
 def home():
