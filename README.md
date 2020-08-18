@@ -16,14 +16,22 @@ Link: [https://loan-default-pred-api.herokuapp.com](https://loan-default-pred-ap
 
 ## Project Architecture
 ![](/static/architecture.JPG)
-### Problem Definition : To predict whether the loan applicant would default on the loan or not
-### Data Gathering : Data provided by the training team
-### Data Clensing : Numerized the amount feature which had $ symbols, removed duplicates, imputed missing values
-### EDA : defined the dependent variable, found various relations between different features
-### Feature Engineering : Converted few variables to a different form to suite the prediction
-### Model Building : Built different models on the data, and evaluated the accuracies
-### Model Selection : Selected the XGB model which gave the highest accuracy
-### Deployment : Made the application file using Flask framework and deployed using Heroku  
+### Problem Definition : 
+To predict whether the loan applicant would default on the loan or not
+### Data Gathering : 
+Data provided by the training team
+### Data Clensing : 
+Numerized the amount feature which had $ symbols, removed duplicates, imputed missing values
+### EDA : 
+Defined the dependent variable, found various relations between different features
+### Feature Engineering : 
+Converted few variables to a different form to suite the prediction
+### Model Building : 
+Built different models on the data, and evaluated the accuracies
+### Model Selection : 
+Selected the XGB model which gave the highest accuracy
+### Deployment : 
+Made the application file using Flask framework and deployed using Heroku  
 
 ## Technologies Used
 [<img src="https://www.python.org/static/community_logos/python-logo-master-v3-TM.png" width=280>] [<img target="_blank" src="https://flask.palletsprojects.com/en/1.1.x/_images/flask-logo.png" width=170>] [<img target="_blank" src="https://number1.co.za/wp-content/uploads/2017/10/gunicorn_logo-300x85.png" width=280>]  
