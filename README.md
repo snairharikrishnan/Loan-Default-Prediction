@@ -16,3 +16,11 @@ Link: [https://loan-default-pred-api.herokuapp.com](https://loan-default-pred-ap
 
 ## Project Architecture
 ![](/static/architecture.JPG)
+### Problem Definition : To predict whether the loan applicant would default on the loan or not
+### Data Gathering : Data provided by the training team
+### Data Clensing : Numerized the amount feature which had $ symbols, removed duplicates, imputed missing values
+### EDA : defined the dependent variable, found various relations between different features
+### Feature Engineering : Converted few variables to a different form to suite the prediction
+### Model Building : Built different models on the data, and evaluated the accuracies
+### Model Selection : Selected the XGB model which gave the highest accuracy
+### Deployment : Made the application file using Flask and deployed using heroku framework 
